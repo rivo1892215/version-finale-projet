@@ -1,0 +1,118 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 30px;
+}
+h2
+{
+    color: blanchedalmond;
+    font-size: 30px;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.orange
+{
+    color: #ff7a00;
+}
+
+
+/* HEADER */
+
+header
+{
+    height: 120px;
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li
+{
+    display: inline-block;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+header nav ul li a:visited
+{
+    color: #000000;
+}
+header nav ul li a:hover
+{
+    color: #00f;
+}
+
+
+/* FOOTER */
+
+footer
+{
+    height: 260px;
+    background-color: #444;
+}
+footer h1
+{
+    color:#fff;
+    text-align: center;
+    padding-top: 80px;
+}
+footer h2
+{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #fff;
+}
+
+
+/* DIV*/
+
+.contact
+{
+    clear: both;
+    padding-top: 100px;
+    padding: 60px;
+    text-align: center;
+}
+h4
+{
+    width: 400px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    border-bottom: 2px solid #02b8dd;
+    padding-bottom: 20px;
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+}
